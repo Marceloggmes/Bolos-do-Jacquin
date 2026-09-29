@@ -141,7 +141,7 @@ header {
     margin-bottom: 10px;
 }
 
-.box_h2  hr {
+.box_h2 hr {
     max-width: 380px;
     width: 100%;
     background-color: #C5A028;
@@ -150,16 +150,118 @@ header {
 }
 
 
+/* ---------------------------FORMULARIO--------------------------------*/
+
+form {
+    /* background-color: aquamarine; */
+    width: 100%;
+}
+
+.input_form {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.lf_coluna {
+    display: flex;
+    flex-direction: column;
+}
+
+.lf_linha {
+    display: flex;
+}
+
+.input_img svg {
+    width: 24px;
+}
 
 
+.form_coluna1,
+.form_coluna2 {
+    width: 414px;
+}
+
+.input_img span,
+form label {
+    font-family: var(--fontHanken);
+    text-transform: uppercase;
+    color: #787878;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
 
 
+.input_form input[type=text],
+.input_form textarea {
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 1px #787878;
+    resize: none;
+}
+
+.input_form input[type=text]:focus,
+.input_form textarea:focus {
+    outline: none;
+}
 
 
+.linha_form {
+    margin-bottom: 10px;
+}
 
+.input_form input[type=file] {
+    display: none;
+}
 
+.input_img label {
+    /* background-color: violet; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    border: solid 1px #444444;
+}
 
+.input_img label:hover {
+    cursor: pointer;
+}
 
+form input[type=text] {
+    height: 26px;
+}
+
+form input[type=checkbox],
+form input[type=text] {
+    height: 25px;
+}
+
+.input_cat input {
+    width: 314px;
+    margin-right: 29px;
+}
+
+.input_valor input {
+    margin-right: 20px;
+    width: 360px;
+}
+
+form input[type=button] {
+    margin: 100px auto;
+    display: block;
+    color: #ffffff;
+    background-color: #000000;
+    width: 150px;
+    height: 50px;
+
+    font-family: var(--fontHanken);
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 10px;
+    letter-spacing: 2px
+}
 
 
 
@@ -181,17 +283,17 @@ header {
         display: none;
     }
 
-    .box_h2 h2{
+    .box_h2 h2 {
         font-size: 32px;
     }
 
-    .box_h2 span{
+    .box_h2 span {
         font-size: 20px;
         bottom: -18px;
         margin-bottom: 20px;
     }
 
-    .box_h2 hr{
+    .box_h2 hr {
         margin-top: 10px;
         width: 70%;
     }
